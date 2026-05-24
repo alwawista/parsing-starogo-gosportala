@@ -1,0 +1,405 @@
+{
+  "probedAt": "2026-05-24T15:03:27.137623+00:00",
+  "listUrl": "https://rosreestr.gov.ru/wps/portal/p/cc_ib_portal_services/cc_ib_sro_reestrs/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDQw9HA0dTYy8_U09XQwCTUzN_Py8fI0NDAz0w8EK3ANNXA2dTQy93QMNzQ0cPR29DY0N3Q0M_A31o4jRj0cBWD8O4AjSHwVWgssFzkYEFICcSMiSgtzQCINMT0UAZsE4jA!!/p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2freestr.do==/?reestr=9",
+  "sampleRegNumber": "9624",
+  "baselineRowCount": 15,
+  "baselineSample": [
+    {
+      "person_id": 826933,
+      "reg_number": "9624",
+      "name": "Ёжиков Роман Дмитриевич"
+    },
+    {
+      "person_id": 816193,
+      "reg_number": "34341",
+      "name": "Ёжикова Анастасия Игоревна"
+    },
+    {
+      "person_id": 847315,
+      "reg_number": "39688",
+      "name": "Ёлкина Александра Олеговна"
+    }
+  ],
+  "searchUi": {
+    "formCount": 10,
+    "forms": [
+      {
+        "name": "",
+        "id": "top_search",
+        "action": "https://rosreestr.ru/site/search/",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "",
+            "type": "text",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "q",
+            "type": "submit",
+            "id": "",
+            "value": "Найти"
+          }
+        ]
+      },
+      {
+        "name": "reestrForm",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2freestr.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "reestr",
+            "type": "text",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "reset",
+            "type": "hidden",
+            "id": "",
+            "value": "1"
+          },
+          {
+            "name": "excluded",
+            "type": "hidden",
+            "id": "",
+            "value": "false"
+          },
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          }
+        ]
+      },
+      {
+        "name": "filterForm",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fperson_list.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "post",
+        "inputs": [
+          {
+            "name": "is_filter_open_param_name",
+            "type": "hidden",
+            "id": "filter_param",
+            "value": ""
+          },
+          {
+            "name": "sroId",
+            "type": "hidden",
+            "id": "sroId",
+            "value": ""
+          },
+          {
+            "name": "mode",
+            "type": "hidden",
+            "id": "",
+            "value": "filter"
+          },
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          },
+          {
+            "name": "excluded",
+            "type": "hidden",
+            "id": "",
+            "value": "false"
+          },
+          {
+            "name": "regNum",
+            "type": "text",
+            "id": "regNum",
+            "value": ""
+          },
+          {
+            "name": "FName",
+            "type": "text",
+            "id": "FName",
+            "value": ""
+          },
+          {
+            "name": "IName",
+            "type": "text",
+            "id": "IName",
+            "value": ""
+          },
+          {
+            "name": "OName",
+            "type": "text",
+            "id": "OName",
+            "value": ""
+          },
+          {
+            "name": "inReestr",
+            "type": "text",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "qaNumber",
+            "type": "text",
+            "id": "qaNumber",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name": "homeForm",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2freestr.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          }
+        ]
+      },
+      {
+        "name": "home2Form",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2freestr.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "reestr",
+            "type": "hidden",
+            "id": "",
+            "value": "8"
+          },
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          }
+        ]
+      },
+      {
+        "name": "sortForm",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fset_person_sort.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "name",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "sroId",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          },
+          {
+            "name": "excluded",
+            "type": "hidden",
+            "id": "",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "name": "backForm",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fsro_view.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "sroId",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          }
+        ]
+      },
+      {
+        "name": "pageForm",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fset_person_page.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "what",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "to",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "sroId",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          },
+          {
+            "name": "excluded",
+            "type": "hidden",
+            "id": "",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "name": "editForm",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fperson_view.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "sroId",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "excluded",
+            "type": "hidden",
+            "id": "",
+            "value": "false"
+          },
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          }
+        ]
+      },
+      {
+        "name": "reloadForm",
+        "id": "",
+        "action": "p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fperson_list.do==/#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+        "method": "get",
+        "inputs": [
+          {
+            "name": "sroId",
+            "type": "hidden",
+            "id": "",
+            "value": ""
+          },
+          {
+            "name": "excluded",
+            "type": "hidden",
+            "id": "",
+            "value": "false"
+          },
+          {
+            "name": "filterName",
+            "type": "hidden",
+            "id": "",
+            "value": "personFilter"
+          }
+        ]
+      }
+    ],
+    "keywordSnippets": [
+      "Реестры саморегулируемых организаций",
+      "Реестр кадастровых инженеров",
+      "Уникальный реестровый номер:",
+      "Статус в реестре:",
+      "Регистрационный номер",
+      "Дата текущего включения в реестр",
+      "включен в реестр",
+      "исключен из реестра"
+    ]
+  },
+  "inBaselineTable": [
+    {
+      "person_id": 826933,
+      "reg_number": "9624",
+      "full_name": "Ёжиков Роман Дмитриевич"
+    }
+  ],
+  "formFillSearch": null,
+  "jsSearch": null,
+  "paginationNote": "person_id доступен в onclick onEdit(N) в <tr> таблицы",
+  "filterFormSearch": {
+    "method": "filterForm.regNum + onFilter('set')",
+    "endpoint": "QCB2fperson_list.do== (POST)",
+    "rowCount": 4,
+    "exactMatches": [
+      {
+        "person_id": 826933,
+        "reg_number": "9624",
+        "full_name": "Ёжиков Роман Дмитриевич"
+      }
+    ],
+    "partialRows": [
+      {
+        "person_id": 846731,
+        "reg_number": "39624"
+      },
+      {
+        "person_id": 810021,
+        "reg_number": "19624"
+      },
+      {
+        "person_id": 816481,
+        "reg_number": "29624"
+      }
+    ],
+    "needsExactFilter": true
+  },
+  "filterFormSearch23120": {
+    "method": "filterForm.regNum + onFilter('set')",
+    "endpoint": "QCB2fperson_list.do== (POST)",
+    "rowCount": 1,
+    "exactMatches": [
+      {
+        "person_id": 824174,
+        "reg_number": "23120",
+        "full_name": "Абабилов Александр Сергеевич"
+      }
+    ],
+    "partialRows": [],
+    "needsExactFilter": false
+  },
+  "verdict": "FILTER_FORM_OK: POST filterForm.regNum → HTML таблицы person_list.do; person_id берётся из onEdit(N) через extract_list_rows() — в карточку заходить не нужно. При частичных совпадениях фильтровать exact match по колонке reg_number.",
+  "htmlSnippet": "<td align=\"left\" class=\"td\" onclick=\"onEdit(826933)\" style=\"cursor:pointer;color:darkblue;\">\n<img src=\"/wps/PA_SroReestr/img/user.gif\"/>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tЁжиков Роман Дмитриевич\n\t\t\t\t\t\t\t</td>"
+}

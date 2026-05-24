@@ -75,6 +75,19 @@ python rosreestr_network_probe.py --person-id 824174 --replay
 
 Отложенный тест (30–60 мин): `python rosreestr_session_ttl_test.py --save-only`, затем `python rosreestr_session_ttl_test.py`.
 
+### Фаза 1: маппинг рег. номер → person_id
+
+Проверка: `python rosreestr_mapping_probe.py --reg-number 9624` → `data/mapping_probe_report.json`.
+
+| Способ | Работает | Примечание |
+|--------|----------|------------|
+| `filterForm.regNum` + `onFilter('set')` | Да | POST на `person_list.do==`, ответ — таблица |
+| `extract_list_rows(html)` | Да | `person_id` из `onclick="onEdit(826933)"` |
+| Заход в карточку | Не нужен | ID уже в HTML результатов |
+| Поиск `824174` в regNum | Нет | 824174 — это `person_id`; рег. номер того же инженера — `23120` |
+
+Для 37k: один запрос фильтра на рег. номер (~2–3 с) + BS4; при пустом exact match — лог в `errors.log`. Резерв: полная пагинация `setPage()`.
+
 ## Установка
 
 ```bash
