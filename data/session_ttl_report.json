@@ -1,0 +1,76 @@
+{
+  "testedAt": "2026-05-24T14:51:14.004263+00:00",
+  "urlsSavedAt": "2026-05-24T14:41:10.768427+00:00",
+  "personId": 824174,
+  "savedZ1": {
+    "list": "04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDQw9HA0dTYy8_U09XQwCTUzN_Py8fI0NDAz0w8EK3ANNXA2dTQy93QMNzQ0cPR29DY0N3Q0M_A31o4jRj0cBWD8O4AjSHwVWgssFzkYEFICcSMiSgtzQCINMT0UAZsE4jA!!",
+    "card": "jZDNDoIwEISfxQNXd1eqEG-NmqrEHw4G7MVggpWA1NSiry9gvIm6t918k50ZkBCDLJN7phKb6TIp6n0vRwekOSfOBsFmuJhiyIaj9Xq5chERohYQIZvRhFEgQvKQL3hALgnEDYH8R_8FaPUdwxu9bJEuB5PBD6Cx-OvJEqQq9PHVBy-Prq9AmvSUmtT0K1Ofz9Zeb2MHHcwf2uR9Uzn4CT7rm4X4zcC-Tu91phcMrpddjNn2EvnWV7zXewLHvu7R",
+    "template": "jZDNDoIwEISfxQNXd1eqEG-NmqrEHw4G7MVggpWA1NSiry9gvIm6t918k50ZkBCDLJN7phKb6TIp6n0vRwekOSfOBsFmuJhiyIaj9Xq5chERohYQIZvRhFEgQvKQL3hALgnEDYH8R_8FaPUdwxu9bJEuB5PBD6Cx-OvJEqQq9PHVBy-Prq9AmvSUmtT0K1Ofz9Zeb2MHHcwf2uR9Uzn4CT7rm4X4zcC-Tu91phcMrpddjNn2EvnWV7zXewLHvu7R"
+  },
+  "tests": [
+    {
+      "label": "cold_old_card_url",
+      "finalUrl": "https://rosreestr.gov.ru/wps/portal/p/cc_ib_portal_services/cc_ib_sro_reestrs/!ut/p/z1/jZDNDoIwEISfxQNXd1eqEG-NmqrEHw4G7MVggpWA1NSiry9gvIm6t918k50ZkBCDLJN7phKb6TIp6n0vRwekOSfOBsFmuJhiyIaj9Xq5chERohYQIZvRhFEgQvKQL3hALgnEDYH8R_8FaPUdwxu9bJEuB5PBD6Cx-OvJEqQq9PHVBy-Prq9AmvSUmtT0K1Ofz9Zeb2MHHcwf2uR9Uzn4CT7rm4X4zcC-Tu91phcMrpddjNn2EvnWV7zXewLHvu7R/p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fperson_view.do==/?id=824174&sroId=&excluded=false&filterName=personFilter",
+      "z1Token": "jZDNDoIwEISfxQNXd1eqEG-NmqrEHw4G7MVggpWA1NSiry9gvIm6t918k50ZkBCDLJN7phKb6TIp6n0vRwekOSfOBsFmuJhiyIaj9Xq5chERohYQIZvRhFEgQvKQL3hALgnEDYH8R_8FaPUdwxu9bJEuB5PBD6Cx-OvJEqQq9PHVBy-Prq9AmvSUmtT0K1Ofz9Zeb2MHHcwf2uR9Uzn4CT7rm4X4zcC-Tu91phcMrpddjNn2EvnWV7zXewLHvu7R",
+      "statusOk": true,
+      "hasGeneral": false,
+      "activityRows": 0,
+      "htmlLength": 49755,
+      "titleSnippet": "Реестры саморегулируемых организаций - Портал услуг Федеральной службы государственной регистрации, кадастра и картограф",
+      "httpStatus": 200
+    },
+    {
+      "label": "fresh_list_visit",
+      "finalUrl": "https://rosreestr.gov.ru/wps/portal/p/cc_ib_portal_services/cc_ib_sro_reestrs/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDQw9HA0dTYy8_U09XQwCTUzN_Py8fI0NDAz0w8EK3ANNXA2dTQy93QMNzQ0cPR29DY0N3Q0M_A31o4jRj0cBWD8O4AjSHwVWgssFzkYEFICcSMiSgtzQCINMT0UAZsE4jA!!/p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2freestr.do==/?reestr=9",
+      "z1Token": "04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDQw9HA0dTYy8_U09XQwCTUzN_Py8fI0NDAz0w8EK3ANNXA2dTQy93QMNzQ0cPR29DY0N3Q0M_A31o4jRj0cBWD8O4AjSHwVWgssFzkYEFICcSMiSgtzQCINMT0UAZsE4jA!!",
+      "statusOk": true,
+      "hasGeneral": false,
+      "activityRows": 0,
+      "htmlLength": 80635,
+      "titleSnippet": "Реестры саморегулируемых организаций - Портал услуг Федеральной службы государственной регистрации, кадастра и картограф",
+      "httpStatus": 200
+    },
+    {
+      "label": "fresh_navigation_via_editForm",
+      "finalUrl": "https://rosreestr.gov.ru/wps/portal/p/cc_ib_portal_services/cc_ib_sro_reestrs/!ut/p/z1/jY4xD4JADEZ_UlsoMDdoTrwI3mCELuYmc1GBwfj7hdtP7NbkvXwPFHrQ0X_C3b_DNPrn8g9a3pAOQsKZ7Ypmh46Lsm2PpxwR4RoB43hPNZM1jiqURizlZBA7Av3H_wFEP3Gy-hqRVEGdbQBr4tbIsERWyUjDML8uPYbz4wueRSxp/p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fperson_view.do==/?id=824174&sroId=&excluded=false&filterName=personFilter#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+      "z1Token": "jY4xD4JADEZ_UlsoMDdoTrwI3mCELuYmc1GBwfj7hdtP7NbkvXwPFHrQ0X_C3b_DNPrn8g9a3pAOQsKZ7Ypmh46Lsm2PpxwR4RoB43hPNZM1jiqURizlZBA7Av3H_wFEP3Gy-hqRVEGdbQBr4tbIsERWyUjDML8uPYbz4wueRSxp",
+      "statusOk": true,
+      "hasGeneral": true,
+      "activityRows": 47,
+      "htmlLength": 69480,
+      "titleSnippet": "Реестры саморегулируемых организаций - Портал услуг Федеральной службы государственной регистрации, кадастра и картограф",
+      "personIdUsed": 824174
+    },
+    {
+      "label": "static_template_after_list",
+      "finalUrl": "https://rosreestr.gov.ru/wps/portal/p/cc_ib_portal_services/cc_ib_sro_reestrs/!ut/p/z1/jZDNDoIwEISfxQNXd1eqEG-NmqrEHw4G7MVggpWA1NSiry9gvIm6t918k50ZkBCDLJN7phKb6TIp6n0vRwekOSfOBsFmuJhiyIaj9Xq5chERohYQIZvRhFEgQvKQL3hALgnEDYH8R_8FaPUdwxu9bJEuB5PBD6Cx-OvJEqQq9PHVBy-Prq9AmvSUmtT0K1Ofz9Zeb2MHHcwf2uR9Uzn4CT7rm4X4zcC-Tu91phcMrpddjNn2EvnWV7zXewLHvu7R/p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fperson_view.do==/?id=824174&sroId=&excluded=false&filterName=personFilter",
+      "z1Token": "jZDNDoIwEISfxQNXd1eqEG-NmqrEHw4G7MVggpWA1NSiry9gvIm6t918k50ZkBCDLJN7phKb6TIp6n0vRwekOSfOBsFmuJhiyIaj9Xq5chERohYQIZvRhFEgQvKQL3hALgnEDYH8R_8FaPUdwxu9bJEuB5PBD6Cx-OvJEqQq9PHVBy-Prq9AmvSUmtT0K1Ofz9Zeb2MHHcwf2uR9Uzn4CT7rm4X4zcC-Tu91phcMrpddjNn2EvnWV7zXewLHvu7R",
+      "statusOk": true,
+      "hasGeneral": true,
+      "activityRows": 47,
+      "htmlLength": 70047,
+      "titleSnippet": "Реестры саморегулируемых организаций - Портал услуг Федеральной службы государственной регистрации, кадастра и картограф",
+      "httpStatus": 200
+    },
+    {
+      "label": "cold_fresh_card_url_new_context",
+      "finalUrl": "https://rosreestr.gov.ru/wps/portal/p/cc_ib_portal_services/cc_ib_sro_reestrs/!ut/p/z1/jY4xD4JADEZ_UlsoMDdoTrwI3mCELuYmc1GBwfj7hdtP7NbkvXwPFHrQ0X_C3b_DNPrn8g9a3pAOQsKZ7Ypmh46Lsm2PpxwR4RoB43hPNZM1jiqURizlZBA7Av3H_wFEP3Gy-hqRVEGdbQBr4tbIsERWyUjDML8uPYbz4wueRSxp/p0/IZ7_01HA1A42KO5ID0Q456NNJM30G4=CZ6_01HA1A42KO5ID0Q456NNJM3000=LA0=Espf_ActionName!spf_ActionListener=spf_strutsAction!QCB2fperson_view.do==/?id=824174&sroId=&excluded=false&filterName=personFilter#Z7_01HA1A42KO5ID0Q456NNJM30G4",
+      "z1Token": "jY4xD4JADEZ_UlsoMDdoTrwI3mCELuYmc1GBwfj7hdtP7NbkvXwPFHrQ0X_C3b_DNPrn8g9a3pAOQsKZ7Ypmh46Lsm2PpxwR4RoB43hPNZM1jiqURizlZBA7Av3H_wFEP3Gy-hqRVEGdbQBr4tbIsERWyUjDML8uPYbz4wueRSxp",
+      "statusOk": true,
+      "hasGeneral": false,
+      "activityRows": 0,
+      "htmlLength": 49188,
+      "titleSnippet": "Реестры саморегулируемых организаций - Портал услуг Федеральной службы государственной регистрации, кадастра и картограф",
+      "httpStatus": 200
+    }
+  ],
+  "verdict": "SESSION_OR_URL_EXPIRED: холодный старый URL не дал данных, но шаблон после list — OK. Нужен прогрев list или обновление z1 в начале прогона.",
+  "freshZ1": {
+    "list": "04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDQw9HA0dTYy8_U09XQwCTUzN_Py8fI0NDAz0w8EK3ANNXA2dTQy93QMNzQ0cPR29DY0N3Q0M_A31o4jRj0cBWD8O4AjSHwVWgssFzkYEFICcSMiSgtzQCINMT0UAZsE4jA!!",
+    "viaEditForm": "jY4xD4JADEZ_UlsoMDdoTrwI3mCELuYmc1GBwfj7hdtP7NbkvXwPFHrQ0X_C3b_DNPrn8g9a3pAOQsKZ7Ypmh46Lsm2PpxwR4RoB43hPNZM1jiqURizlZBA7Av3H_wFEP3Gy-hqRVEGdbQBr4tbIsERWyUjDML8uPYbz4wueRSxp"
+  },
+  "z1Unchanged": {
+    "list": true,
+    "card": false
+  }
+}

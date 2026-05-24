@@ -59,6 +59,22 @@ python rosreestr_network_probe.py --person-id 824174 --replay
 
 Логи: `ContactFlow/outputs/rosreestr_probe_log.json`, `GRKI-Rosreestr-scraping/data/rosreestr_probe_log.json`.
 
+### TTL сессии / токена `!ut/p/z1/...`
+
+Проверка: `python rosreestr_session_ttl_test.py` → `data/session_ttl_report.json`.
+
+| Сценарий | activity rows | Вывод |
+|----------|---------------|--------|
+| Холодный сохранённый URL карточки | 0 | Нужны cookies контекста |
+| `LIST_URL` → `DETAIL_URL_TEMPLATE` (тот же z1 из config) | 47 | Шаблон **не протух** за ~10+ мин |
+| 5 карточек подряд после одного `LIST_URL` | 20–47 | Повторный прогрев list на каждую карточку **не нужен** |
+| z1 в `LIST_URL` | без изменений | Стабилен между визитами |
+| z1 через `editForm` | другой токен | Для конвейера используйте шаблон, не bookmark URL |
+
+**Для прогона 37k:** в начале каждого воркера один `goto(LIST_URL)`; далее только подстановка `person_id` в `DETAIL_URL_TEMPLATE`. Раз в N карточек (или при `activityRows==0`) — повторный прогрев list. Динамически вытягивать z1 нужно только если шаблон перестанет отдавать полный HTML.
+
+Отложенный тест (30–60 мин): `python rosreestr_session_ttl_test.py --save-only`, затем `python rosreestr_session_ttl_test.py`.
+
 ## Установка
 
 ```bash
