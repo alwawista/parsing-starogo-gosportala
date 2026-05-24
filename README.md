@@ -34,6 +34,31 @@ GRKI-Rosreestr-scraping/
 └── EnvExample
 ```
 
+## Сетевой endpoint (результат probe)
+
+Отдельного JSON/AJAX API для вкладки «Результаты профессиональной деятельности» **нет** — при клике новых `xhr`/`fetch` не появляется, таблица уже в HTML карточки (клиентский показ/скрытие).
+
+| Назначение | Метод | URL |
+|------------|-------|-----|
+| Список реестра КИ | `GET` | `...QCB2freestr.do==/?reestr=9` |
+| Карточка инженера | `GET` | `...QCB2fperson_view.do==/?id={person_id}&sroId=&excluded=false&filterName=personFilter` |
+
+Ответ карточки: **`text/html; charset=UTF-8`** (не JSON). Прямой `GET` возможен через `playwright.request` после визита списка (cookies); голый запрос без сессии может отдать урезанную страницу.
+
+Диагностика:
+
+```bash
+# ContactFlow (Node)
+cd parser/node_scripts
+node rosreestr_probe.cjs --person-id 824174
+node rosreestr_replay.cjs --person-id 824174
+
+# GRKI (Python)
+python rosreestr_network_probe.py --person-id 824174 --replay
+```
+
+Логи: `ContactFlow/outputs/rosreestr_probe_log.json`, `GRKI-Rosreestr-scraping/data/rosreestr_probe_log.json`.
+
 ## Установка
 
 ```bash
