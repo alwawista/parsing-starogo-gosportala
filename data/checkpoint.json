@@ -1,0 +1,456 @@
+{
+  "processed_reg_numbers": [
+    "9624",
+    "34341",
+    "39688",
+    "16912",
+    "24915",
+    "33461",
+    "23120",
+    "4101",
+    "27897",
+    "39333",
+    "32804",
+    "29102",
+    "38281",
+    "7473",
+    "23295",
+    "3012",
+    "6940",
+    "36104",
+    "6486",
+    "39448",
+    "26953",
+    "28012",
+    "31473",
+    "2741",
+    "37495",
+    "33726",
+    "17461",
+    "28929",
+    "14548",
+    "28571",
+    "12596",
+    "726",
+    "23699",
+    "30297",
+    "22059",
+    "27800",
+    "28330",
+    "31949",
+    "21857",
+    "27822",
+    "26319",
+    "3804",
+    "20497",
+    "667",
+    "35583",
+    "36508",
+    "1051",
+    "1200",
+    "20837",
+    "41130"
+  ],
+  "listing_rows": [
+    {
+      "person_id": 826933,
+      "full_name": "Ёжиков Роман Дмитриевич",
+      "reg_number": "9624",
+      "status": "включен в реестр",
+      "cert_number_list": "13-11-56",
+      "membership_date_list": "30.06.2016"
+    },
+    {
+      "person_id": 816193,
+      "full_name": "Ёжикова Анастасия Игоревна",
+      "reg_number": "34341",
+      "status": "включен в реестр",
+      "cert_number_list": "23-15-1421",
+      "membership_date_list": "26.11.2016"
+    },
+    {
+      "person_id": 847315,
+      "full_name": "Ёлкина Александра Олеговна",
+      "reg_number": "39688",
+      "status": "включен в реестр",
+      "cert_number_list": "",
+      "membership_date_list": "26.01.2021"
+    },
+    {
+      "person_id": 817155,
+      "full_name": "Ёлчин Евгений Владиславович",
+      "reg_number": "16912",
+      "status": "исключен из реестра",
+      "cert_number_list": "50-11-720",
+      "membership_date_list": "28.06.2016"
+    },
+    {
+      "person_id": 817177,
+      "full_name": "Ёркин Александр Александрович",
+      "reg_number": "24915",
+      "status": "включен в реестр",
+      "cert_number_list": "70-13-237",
+      "membership_date_list": "29.10.2016"
+    },
+    {
+      "person_id": 816002,
+      "full_name": "Абабий Анна Александровна",
+      "reg_number": "33461",
+      "status": "включен в реестр",
+      "cert_number_list": "78-15-987",
+      "membership_date_list": "25.03.2016"
+    },
+    {
+      "person_id": 824174,
+      "full_name": "Абабилов Александр Сергеевич",
+      "reg_number": "23120",
+      "status": "включен в реестр",
+      "cert_number_list": "62-12-356",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 834094,
+      "full_name": "Абагаев Валерий Анатольевич",
+      "reg_number": "4101",
+      "status": "включен в реестр",
+      "cert_number_list": "15-10-10",
+      "membership_date_list": "24.06.2016"
+    },
+    {
+      "person_id": 821038,
+      "full_name": "Абаев Хизири Серибарикович",
+      "reg_number": "27897",
+      "status": "исключен из реестра",
+      "cert_number_list": "15-13-93",
+      "membership_date_list": "17.06.2016"
+    },
+    {
+      "person_id": 833179,
+      "full_name": "Абайдуллина Рита Раисовна",
+      "reg_number": "39333",
+      "status": "включен в реестр",
+      "cert_number_list": "16-16-942",
+      "membership_date_list": "19.08.2016"
+    },
+    {
+      "person_id": 812881,
+      "full_name": "Абайханова Диана Дагировна",
+      "reg_number": "32804",
+      "status": "включен в реестр",
+      "cert_number_list": "01-14-372",
+      "membership_date_list": "12.07.2016"
+    },
+    {
+      "person_id": 819318,
+      "full_name": "Абакаров Шагабутдин Багавутдинович",
+      "reg_number": "29102",
+      "status": "исключен из реестра",
+      "cert_number_list": "05-13-197",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 820708,
+      "full_name": "Абакумов Максим Викторович",
+      "reg_number": "38281",
+      "status": "включен в реестр",
+      "cert_number_list": "53-16-267",
+      "membership_date_list": "18.10.2017"
+    },
+    {
+      "person_id": 809075,
+      "full_name": "Абакумов Виктор Юрьевич",
+      "reg_number": "7473",
+      "status": "включен в реестр",
+      "cert_number_list": "53-11-71",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 821733,
+      "full_name": "Абакумов Алексей Александрович",
+      "reg_number": "23295",
+      "status": "включен в реестр",
+      "cert_number_list": "68-12-258",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 821734,
+      "full_name": "Абакумов Василий Васильевич",
+      "reg_number": "3012",
+      "status": "вне реестра",
+      "cert_number_list": "01-10-22",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 834095,
+      "full_name": "Абакумов Александр Юрьевич",
+      "reg_number": "6940",
+      "status": "включен в реестр",
+      "cert_number_list": "68-11-100",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 823714,
+      "full_name": "Абакумова Анастасия Андреевна",
+      "reg_number": "36104",
+      "status": "включен в реестр",
+      "cert_number_list": "29-15-245",
+      "membership_date_list": "26.05.2016"
+    },
+    {
+      "person_id": 820160,
+      "full_name": "Абакумова Елена Ивановна",
+      "reg_number": "6486",
+      "status": "включен в реестр",
+      "cert_number_list": "63-11-124",
+      "membership_date_list": "27.05.2016"
+    },
+    {
+      "person_id": 826318,
+      "full_name": "Абакумова Марина Николаевна",
+      "reg_number": "39448",
+      "status": "включен в реестр",
+      "cert_number_list": "",
+      "membership_date_list": "14.06.2019"
+    },
+    {
+      "person_id": 824175,
+      "full_name": "Абакшина Наталья Александровна",
+      "reg_number": "26953",
+      "status": "включен в реестр",
+      "cert_number_list": "69-13-570",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 824176,
+      "full_name": "Абалаев Сайхан Вахаевич",
+      "reg_number": "28012",
+      "status": "включен в реестр",
+      "cert_number_list": "06-13-33",
+      "membership_date_list": "05.07.2016"
+    },
+    {
+      "person_id": 821029,
+      "full_name": "Абалуева Екатерина Викторовна",
+      "reg_number": "31473",
+      "status": "исключен из реестра",
+      "cert_number_list": "27-14-37",
+      "membership_date_list": "30.06.2016"
+    },
+    {
+      "person_id": 835738,
+      "full_name": "Абальцева Ольга Владимировна",
+      "reg_number": "2741",
+      "status": "включен в реестр",
+      "cert_number_list": "55-10-73",
+      "membership_date_list": "13.02.2023"
+    },
+    {
+      "person_id": 825563,
+      "full_name": "Абанеев Никита Юрьевич",
+      "reg_number": "37495",
+      "status": "включен в реестр",
+      "cert_number_list": "26-16-655",
+      "membership_date_list": "09.12.2016"
+    },
+    {
+      "person_id": 840064,
+      "full_name": "Абанина Екатерина Вячеславовна",
+      "reg_number": "33726",
+      "status": "вне реестра",
+      "cert_number_list": "63-15-857",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 833058,
+      "full_name": "Абанина Вера Владимировна",
+      "reg_number": "17461",
+      "status": "включен в реестр",
+      "cert_number_list": "42-16-523",
+      "membership_date_list": "21.06.2016"
+    },
+    {
+      "person_id": 820378,
+      "full_name": "Абаньшин Евгений Владимирович",
+      "reg_number": "28929",
+      "status": "включен в реестр",
+      "cert_number_list": "63-13-731",
+      "membership_date_list": "13.11.2019"
+    },
+    {
+      "person_id": 831650,
+      "full_name": "Абаринова Марина Николаевна",
+      "reg_number": "14548",
+      "status": "включен в реестр",
+      "cert_number_list": "56-11-175",
+      "membership_date_list": "15.12.2017"
+    },
+    {
+      "person_id": 809419,
+      "full_name": "Абаскалова Екатерина Михайловна",
+      "reg_number": "28571",
+      "status": "исключен из реестра",
+      "cert_number_list": "40-13-317",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 838926,
+      "full_name": "Абасов Гаджи Амирсултанович",
+      "reg_number": "12596",
+      "status": "вне реестра",
+      "cert_number_list": "05-11-27",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 841472,
+      "full_name": "Абатурова Татьяна Александровна",
+      "reg_number": "726",
+      "status": "исключен из реестра",
+      "cert_number_list": "59-10-60",
+      "membership_date_list": "10.06.2016"
+    },
+    {
+      "person_id": 824180,
+      "full_name": "Абашева Наталия Николаевна",
+      "reg_number": "23699",
+      "status": "включен в реестр",
+      "cert_number_list": "18-12-250",
+      "membership_date_list": "05.05.2021"
+    },
+    {
+      "person_id": 825724,
+      "full_name": "Абашева Татьяна Анатольевна",
+      "reg_number": "30297",
+      "status": "исключен из реестра",
+      "cert_number_list": "53-14-209",
+      "membership_date_list": "31.05.2016"
+    },
+    {
+      "person_id": 828770,
+      "full_name": "Абашина Галина Алексеевна",
+      "reg_number": "22059",
+      "status": "исключен из реестра",
+      "cert_number_list": "78-12-606",
+      "membership_date_list": "11.09.2019"
+    },
+    {
+      "person_id": 809420,
+      "full_name": "Абашкина Вера Петровна",
+      "reg_number": "27800",
+      "status": "исключен из реестра",
+      "cert_number_list": "64-13-517",
+      "membership_date_list": "12.05.2016"
+    },
+    {
+      "person_id": 834097,
+      "full_name": "Аббасов Андрей Рамизович",
+      "reg_number": "28330",
+      "status": "вне реестра",
+      "cert_number_list": "63-13-723",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 835482,
+      "full_name": "Аббясов Рамиль Растямович",
+      "reg_number": "31949",
+      "status": "включен в реестр",
+      "cert_number_list": "13-14-185",
+      "membership_date_list": "05.07.2016"
+    },
+    {
+      "person_id": 826642,
+      "full_name": "Абгарян Артур Арамаисович",
+      "reg_number": "21857",
+      "status": "включен в реестр",
+      "cert_number_list": "56-12-363",
+      "membership_date_list": "29.06.2016"
+    },
+    {
+      "person_id": 804444,
+      "full_name": "Абдалова Тамара Александровна",
+      "reg_number": "27822",
+      "status": "включен в реестр",
+      "cert_number_list": "42-13-339",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 833707,
+      "full_name": "Абдоков Беслан Муссович",
+      "reg_number": "26319",
+      "status": "исключен из реестра",
+      "cert_number_list": "09-13-50",
+      "membership_date_list": "28.10.2016"
+    },
+    {
+      "person_id": 819322,
+      "full_name": "Абдрахманов Айнур Мунавирович",
+      "reg_number": "3804",
+      "status": "включен в реестр",
+      "cert_number_list": "16-10-32",
+      "membership_date_list": "24.06.2016"
+    },
+    {
+      "person_id": 821340,
+      "full_name": "Абдрахманов Айрат Зульфатович",
+      "reg_number": "20497",
+      "status": "включен в реестр",
+      "cert_number_list": "02-12-670",
+      "membership_date_list": "25.05.2019"
+    },
+    {
+      "person_id": 831652,
+      "full_name": "Абдрахманов Рушан Муритович",
+      "reg_number": "667",
+      "status": "вне реестра",
+      "cert_number_list": "02-10-88",
+      "membership_date_list": ""
+    },
+    {
+      "person_id": 809040,
+      "full_name": "Абдрахманова Ирина Вадимовна",
+      "reg_number": "35583",
+      "status": "включен в реестр",
+      "cert_number_list": "02-15-1327",
+      "membership_date_list": "25.05.2019"
+    },
+    {
+      "person_id": 808394,
+      "full_name": "Абдрахманова Галина Анваровна",
+      "reg_number": "36508",
+      "status": "исключен из реестра",
+      "cert_number_list": "02-16-1358",
+      "membership_date_list": "13.09.2016"
+    },
+    {
+      "person_id": 804445,
+      "full_name": "Абдрахманова Светлана Александровна",
+      "reg_number": "1051",
+      "status": "исключен из реестра",
+      "cert_number_list": "24-10-8",
+      "membership_date_list": "09.12.2016"
+    },
+    {
+      "person_id": 806250,
+      "full_name": "Абдрахманова Альфия Жасталаповна",
+      "reg_number": "1200",
+      "status": "включен в реестр",
+      "cert_number_list": "30-10-6",
+      "membership_date_list": "29.02.2016"
+    },
+    {
+      "person_id": 833756,
+      "full_name": "Абдрашитов Раиф Расимович",
+      "reg_number": "20837",
+      "status": "включен в реестр",
+      "cert_number_list": "02-12-695",
+      "membership_date_list": "12.03.2021"
+    },
+    {
+      "person_id": 866153,
+      "full_name": "Абдрашитова Надежда Михайловна",
+      "reg_number": "41130",
+      "status": "включен в реестр",
+      "cert_number_list": "",
+      "membership_date_list": "05.09.2025"
+    }
+  ]
+}

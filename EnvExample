@@ -1,0 +1,26 @@
+# Режим работы: listing (сбор с сайта) | csv (из входного файла)
+SCRAPE_MODE=listing
+
+# Лимит строк (0 = без ограничений). Для тестового среза: 50
+ROW_LIMIT=0
+
+# Суффикс выходных файлов: engineers500.csv, checkpoint500.json и т.д.
+# OUTPUT_SUFFIX=500
+
+# Браузер
+HEADLESS=true
+IGNORE_HTTPS_ERRORS=true
+PAGE_LOAD_TIMEOUT_MS=120000
+NAVIGATION_WAIT=domcontentloaded
+POST_LOAD_DELAY_MS=1500
+
+# Задержки (мс)
+DELAY_BETWEEN_CARDS_MS=800
+DELAY_BETWEEN_PAGES_MS=1000
+
+# Прокси (через запятую, опционально)
+# PROXY_LIST=http://user:pass@host:8080,socks5://host:1080
+
+# URL (по умолчанию — реестр кадастровых инженеров)
+# LIST_URL=https://rosreestr.gov.ru/wps/portal/...
+# DETAIL_URL_TEMPLATE=https://rosreestr.gov.ru/wps/portal/.../?id={person_id}&...
